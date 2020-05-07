@@ -35,8 +35,7 @@
     "require": {
         "php": "^7.3",
         "ext-json": "*",
-        "laravel-json-api/core": "*",
-        "neomerx/json-api": "^4.0"
+        "laravel-json-api/core": "*"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.0"

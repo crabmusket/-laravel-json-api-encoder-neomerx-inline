@@ -1,5 +1,5 @@
 {
-    "name": "laravel-json-api/encoder-neomerx",
+    "name": "laravel-json-api/encoder-neomerx-inline",
     "description": "Encode JSON API resources using the neomerx/json-api package.",
     "keywords": [
         "jsonapi.org",

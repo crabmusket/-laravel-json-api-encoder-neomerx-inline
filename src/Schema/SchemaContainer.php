@@ -23,8 +23,8 @@ use LaravelJsonApi\Core\Contracts\Document\ResourceObject;
 use LaravelJsonApi\Core\Contracts\Resources\Container;
 use LaravelJsonApi\Encoder\Neomerx\Mapper;
 use LogicException;
-use Neomerx\JsonApi\Contracts\Schema\SchemaContainerInterface;
-use Neomerx\JsonApi\Contracts\Schema\SchemaInterface;
+use LaravelJsonApi\NeomerxInline\JsonApi\Contracts\Schema\SchemaContainerInterface;
+use LaravelJsonApi\NeomerxInline\JsonApi\Contracts\Schema\SchemaInterface;
 
 /**
  * Class SchemaContainer

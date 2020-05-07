@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Neomerx\JsonApi\Contracts\Http\Query;
+namespace LaravelJsonApi\NeomerxInline\JsonApi\Contracts\Http\Query;
 
 /**
  * Copyright 2015-2020 info@neomerx.com

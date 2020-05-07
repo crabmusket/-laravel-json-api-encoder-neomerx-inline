@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Neomerx\JsonApi\Representation;
+namespace LaravelJsonApi\NeomerxInline\JsonApi\Representation;
 
 /**
  * Copyright 2015-2020 info@neomerx.com
@@ -18,9 +18,9 @@ namespace Neomerx\JsonApi\Representation;
  * limitations under the License.
  */
 
-use Neomerx\JsonApi\Contracts\Parser\ResourceInterface;
-use Neomerx\JsonApi\Contracts\Representation\FieldSetFilterInterface;
-use Neomerx\JsonApi\Contracts\Schema\PositionInterface;
+use LaravelJsonApi\NeomerxInline\JsonApi\Contracts\Parser\ResourceInterface;
+use LaravelJsonApi\NeomerxInline\JsonApi\Contracts\Representation\FieldSetFilterInterface;
+use LaravelJsonApi\NeomerxInline\JsonApi\Contracts\Schema\PositionInterface;
 
 /**
  * @package Neomerx\JsonApi

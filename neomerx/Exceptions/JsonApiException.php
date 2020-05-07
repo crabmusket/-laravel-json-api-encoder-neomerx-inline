@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Neomerx\JsonApi\Exceptions;
+namespace LaravelJsonApi\NeomerxInline\JsonApi\Exceptions;
 
 /**
  * Copyright 2015-2020 info@neomerx.com
@@ -19,8 +19,8 @@ namespace Neomerx\JsonApi\Exceptions;
  */
 
 use Exception;
-use Neomerx\JsonApi\Contracts\Schema\ErrorInterface;
-use Neomerx\JsonApi\Schema\ErrorCollection;
+use LaravelJsonApi\NeomerxInline\JsonApi\Contracts\Schema\ErrorInterface;
+use LaravelJsonApi\NeomerxInline\JsonApi\Schema\ErrorCollection;
 
 /**
  * @package Neomerx\JsonApi

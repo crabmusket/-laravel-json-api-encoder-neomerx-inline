@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Neomerx\JsonApi\Encoder;
+namespace LaravelJsonApi\NeomerxInline\JsonApi\Encoder;
 
 /**
  * Copyright 2015-2020 info@neomerx.com
@@ -18,10 +18,10 @@ namespace Neomerx\JsonApi\Encoder;
  * limitations under the License.
  */
 
-use Neomerx\JsonApi\Contracts\Encoder\EncoderInterface;
-use Neomerx\JsonApi\Contracts\Factories\FactoryInterface;
-use Neomerx\JsonApi\Contracts\Schema\LinkInterface;
-use Neomerx\JsonApi\Contracts\Schema\SchemaContainerInterface;
+use LaravelJsonApi\NeomerxInline\JsonApi\Contracts\Encoder\EncoderInterface;
+use LaravelJsonApi\NeomerxInline\JsonApi\Contracts\Factories\FactoryInterface;
+use LaravelJsonApi\NeomerxInline\JsonApi\Contracts\Schema\LinkInterface;
+use LaravelJsonApi\NeomerxInline\JsonApi\Contracts\Schema\SchemaContainerInterface;
 use Traversable;
 
 /**

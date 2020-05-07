@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Neomerx\JsonApi\Contracts\Representation;
+namespace LaravelJsonApi\NeomerxInline\JsonApi\Contracts\Representation;
 
 /**
  * Copyright 2015-2020 info@neomerx.com

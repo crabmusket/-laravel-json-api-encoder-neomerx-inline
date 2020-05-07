@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Neomerx\JsonApi\I18n;
+namespace LaravelJsonApi\NeomerxInline\JsonApi\I18n;
 
 /**
  * Copyright 2015-2020 info@neomerx.com

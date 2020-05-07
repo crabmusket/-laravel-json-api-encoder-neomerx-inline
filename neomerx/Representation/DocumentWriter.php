@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Neomerx\JsonApi\Representation;
+namespace LaravelJsonApi\NeomerxInline\JsonApi\Representation;
 
 /**
  * Copyright 2015-2020 info@neomerx.com
@@ -18,13 +18,13 @@ namespace Neomerx\JsonApi\Representation;
  * limitations under the License.
  */
 
-use Neomerx\JsonApi\Contracts\Parser\IdentifierInterface;
-use Neomerx\JsonApi\Contracts\Parser\RelationshipDataInterface;
-use Neomerx\JsonApi\Contracts\Parser\RelationshipInterface;
-use Neomerx\JsonApi\Contracts\Parser\ResourceInterface;
-use Neomerx\JsonApi\Contracts\Representation\DocumentWriterInterface;
-use Neomerx\JsonApi\Contracts\Representation\FieldSetFilterInterface;
-use Neomerx\JsonApi\Contracts\Schema\DocumentInterface;
+use LaravelJsonApi\NeomerxInline\JsonApi\Contracts\Parser\IdentifierInterface;
+use LaravelJsonApi\NeomerxInline\JsonApi\Contracts\Parser\RelationshipDataInterface;
+use LaravelJsonApi\NeomerxInline\JsonApi\Contracts\Parser\RelationshipInterface;
+use LaravelJsonApi\NeomerxInline\JsonApi\Contracts\Parser\ResourceInterface;
+use LaravelJsonApi\NeomerxInline\JsonApi\Contracts\Representation\DocumentWriterInterface;
+use LaravelJsonApi\NeomerxInline\JsonApi\Contracts\Representation\FieldSetFilterInterface;
+use LaravelJsonApi\NeomerxInline\JsonApi\Contracts\Schema\DocumentInterface;
 
 /**
  * @package Neomerx\JsonApi

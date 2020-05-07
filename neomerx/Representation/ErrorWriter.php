@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Neomerx\JsonApi\Representation;
+namespace LaravelJsonApi\NeomerxInline\JsonApi\Representation;
 
 /**
  * Copyright 2015-2020 info@neomerx.com
@@ -18,9 +18,9 @@ namespace Neomerx\JsonApi\Representation;
  * limitations under the License.
  */
 
-use Neomerx\JsonApi\Contracts\Representation\ErrorWriterInterface;
-use Neomerx\JsonApi\Contracts\Schema\DocumentInterface;
-use Neomerx\JsonApi\Contracts\Schema\ErrorInterface;
+use LaravelJsonApi\NeomerxInline\JsonApi\Contracts\Representation\ErrorWriterInterface;
+use LaravelJsonApi\NeomerxInline\JsonApi\Contracts\Schema\DocumentInterface;
+use LaravelJsonApi\NeomerxInline\JsonApi\Contracts\Schema\ErrorInterface;
 
 /**
  * @package Neomerx\JsonApi

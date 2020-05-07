@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Neomerx\JsonApi\Encoder;
+namespace LaravelJsonApi\NeomerxInline\JsonApi\Encoder;
 
 /**
  * Copyright 2015-2020 info@neomerx.com
@@ -18,19 +18,19 @@ namespace Neomerx\JsonApi\Encoder;
  * limitations under the License.
  */
 
-use Neomerx\JsonApi\Contracts\Encoder\EncoderInterface;
-use Neomerx\JsonApi\Contracts\Factories\FactoryInterface;
-use Neomerx\JsonApi\Contracts\Parser\DocumentDataInterface;
-use Neomerx\JsonApi\Contracts\Parser\IdentifierInterface;
-use Neomerx\JsonApi\Contracts\Parser\ParserInterface;
-use Neomerx\JsonApi\Contracts\Parser\ResourceInterface;
-use Neomerx\JsonApi\Contracts\Representation\BaseWriterInterface;
-use Neomerx\JsonApi\Contracts\Representation\DocumentWriterInterface;
-use Neomerx\JsonApi\Contracts\Representation\ErrorWriterInterface;
-use Neomerx\JsonApi\Contracts\Schema\ErrorInterface;
-use Neomerx\JsonApi\Contracts\Schema\SchemaContainerInterface;
-use Neomerx\JsonApi\Exceptions\InvalidArgumentException;
-use Neomerx\JsonApi\Factories\Factory;
+use LaravelJsonApi\NeomerxInline\JsonApi\Contracts\Encoder\EncoderInterface;
+use LaravelJsonApi\NeomerxInline\JsonApi\Contracts\Factories\FactoryInterface;
+use LaravelJsonApi\NeomerxInline\JsonApi\Contracts\Parser\DocumentDataInterface;
+use LaravelJsonApi\NeomerxInline\JsonApi\Contracts\Parser\IdentifierInterface;
+use LaravelJsonApi\NeomerxInline\JsonApi\Contracts\Parser\ParserInterface;
+use LaravelJsonApi\NeomerxInline\JsonApi\Contracts\Parser\ResourceInterface;
+use LaravelJsonApi\NeomerxInline\JsonApi\Contracts\Representation\BaseWriterInterface;
+use LaravelJsonApi\NeomerxInline\JsonApi\Contracts\Representation\DocumentWriterInterface;
+use LaravelJsonApi\NeomerxInline\JsonApi\Contracts\Representation\ErrorWriterInterface;
+use LaravelJsonApi\NeomerxInline\JsonApi\Contracts\Schema\ErrorInterface;
+use LaravelJsonApi\NeomerxInline\JsonApi\Contracts\Schema\SchemaContainerInterface;
+use LaravelJsonApi\NeomerxInline\JsonApi\Exceptions\InvalidArgumentException;
+use LaravelJsonApi\NeomerxInline\JsonApi\Factories\Factory;
 
 /**
  * @package Neomerx\JsonApi

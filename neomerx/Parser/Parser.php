@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Neomerx\JsonApi\Parser;
+namespace LaravelJsonApi\NeomerxInline\JsonApi\Parser;
 
 /**
  * Copyright 2015-2020 info@neomerx.com
@@ -19,18 +19,18 @@ namespace Neomerx\JsonApi\Parser;
  */
 
 use IteratorAggregate;
-use Neomerx\JsonApi\Contracts\Factories\FactoryInterface;
-use Neomerx\JsonApi\Contracts\Parser\DocumentDataInterface;
-use Neomerx\JsonApi\Contracts\Parser\EditableContextInterface;
-use Neomerx\JsonApi\Contracts\Parser\IdentifierInterface;
-use Neomerx\JsonApi\Contracts\Parser\ParserInterface;
-use Neomerx\JsonApi\Contracts\Parser\RelationshipInterface;
-use Neomerx\JsonApi\Contracts\Parser\ResourceInterface;
-use Neomerx\JsonApi\Contracts\Schema\DocumentInterface;
-use Neomerx\JsonApi\Contracts\Schema\IdentifierInterface as SchemaIdentifierInterface;
-use Neomerx\JsonApi\Contracts\Schema\PositionInterface;
-use Neomerx\JsonApi\Contracts\Schema\SchemaContainerInterface;
-use Neomerx\JsonApi\Exceptions\InvalidArgumentException;
+use LaravelJsonApi\NeomerxInline\JsonApi\Contracts\Factories\FactoryInterface;
+use LaravelJsonApi\NeomerxInline\JsonApi\Contracts\Parser\DocumentDataInterface;
+use LaravelJsonApi\NeomerxInline\JsonApi\Contracts\Parser\EditableContextInterface;
+use LaravelJsonApi\NeomerxInline\JsonApi\Contracts\Parser\IdentifierInterface;
+use LaravelJsonApi\NeomerxInline\JsonApi\Contracts\Parser\ParserInterface;
+use LaravelJsonApi\NeomerxInline\JsonApi\Contracts\Parser\RelationshipInterface;
+use LaravelJsonApi\NeomerxInline\JsonApi\Contracts\Parser\ResourceInterface;
+use LaravelJsonApi\NeomerxInline\JsonApi\Contracts\Schema\DocumentInterface;
+use LaravelJsonApi\NeomerxInline\JsonApi\Contracts\Schema\IdentifierInterface as SchemaIdentifierInterface;
+use LaravelJsonApi\NeomerxInline\JsonApi\Contracts\Schema\PositionInterface;
+use LaravelJsonApi\NeomerxInline\JsonApi\Contracts\Schema\SchemaContainerInterface;
+use LaravelJsonApi\NeomerxInline\JsonApi\Exceptions\InvalidArgumentException;
 use Traversable;
 use function Neomerx\JsonApi\I18n\format as _;
 

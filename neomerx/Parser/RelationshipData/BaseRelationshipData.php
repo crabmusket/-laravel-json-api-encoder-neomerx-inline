@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Neomerx\JsonApi\Parser\RelationshipData;
+namespace LaravelJsonApi\NeomerxInline\JsonApi\Parser\RelationshipData;
 
 /**
  * Copyright 2015-2020 info@neomerx.com
@@ -18,14 +18,14 @@ namespace Neomerx\JsonApi\Parser\RelationshipData;
  * limitations under the License.
  */
 
-use Neomerx\JsonApi\Contracts\Factories\FactoryInterface;
-use Neomerx\JsonApi\Contracts\Parser\EditableContextInterface;
-use Neomerx\JsonApi\Contracts\Parser\IdentifierInterface as ParserIdentifierInterface;
-use Neomerx\JsonApi\Contracts\Parser\RelationshipDataInterface;
-use Neomerx\JsonApi\Contracts\Parser\ResourceInterface;
-use Neomerx\JsonApi\Contracts\Schema\IdentifierInterface as SchemaIdentifierInterface;
-use Neomerx\JsonApi\Contracts\Schema\PositionInterface;
-use Neomerx\JsonApi\Contracts\Schema\SchemaContainerInterface;
+use LaravelJsonApi\NeomerxInline\JsonApi\Contracts\Factories\FactoryInterface;
+use LaravelJsonApi\NeomerxInline\JsonApi\Contracts\Parser\EditableContextInterface;
+use LaravelJsonApi\NeomerxInline\JsonApi\Contracts\Parser\IdentifierInterface as ParserIdentifierInterface;
+use LaravelJsonApi\NeomerxInline\JsonApi\Contracts\Parser\RelationshipDataInterface;
+use LaravelJsonApi\NeomerxInline\JsonApi\Contracts\Parser\ResourceInterface;
+use LaravelJsonApi\NeomerxInline\JsonApi\Contracts\Schema\IdentifierInterface as SchemaIdentifierInterface;
+use LaravelJsonApi\NeomerxInline\JsonApi\Contracts\Schema\PositionInterface;
+use LaravelJsonApi\NeomerxInline\JsonApi\Contracts\Schema\SchemaContainerInterface;
 
 /**
  * @package Neomerx\JsonApi

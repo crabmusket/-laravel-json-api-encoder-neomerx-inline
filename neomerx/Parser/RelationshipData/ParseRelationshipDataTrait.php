@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Neomerx\JsonApi\Parser\RelationshipData;
+namespace LaravelJsonApi\NeomerxInline\JsonApi\Parser\RelationshipData;
 
 /**
  * Copyright 2015-2020 info@neomerx.com
@@ -19,15 +19,15 @@ namespace Neomerx\JsonApi\Parser\RelationshipData;
  */
 
 use IteratorAggregate;
-use Neomerx\JsonApi\Contracts\Factories\FactoryInterface;
-use Neomerx\JsonApi\Contracts\Parser\EditableContextInterface;
-use Neomerx\JsonApi\Contracts\Parser\RelationshipDataInterface;
-use Neomerx\JsonApi\Contracts\Schema\IdentifierInterface;
-use Neomerx\JsonApi\Contracts\Schema\PositionInterface;
-use Neomerx\JsonApi\Contracts\Schema\SchemaContainerInterface;
-use Neomerx\JsonApi\Contracts\Schema\SchemaInterface;
-use Neomerx\JsonApi\Exceptions\InvalidArgumentException;
-use Neomerx\JsonApi\Parser\IdentifierAndResource;
+use LaravelJsonApi\NeomerxInline\JsonApi\Contracts\Factories\FactoryInterface;
+use LaravelJsonApi\NeomerxInline\JsonApi\Contracts\Parser\EditableContextInterface;
+use LaravelJsonApi\NeomerxInline\JsonApi\Contracts\Parser\RelationshipDataInterface;
+use LaravelJsonApi\NeomerxInline\JsonApi\Contracts\Schema\IdentifierInterface;
+use LaravelJsonApi\NeomerxInline\JsonApi\Contracts\Schema\PositionInterface;
+use LaravelJsonApi\NeomerxInline\JsonApi\Contracts\Schema\SchemaContainerInterface;
+use LaravelJsonApi\NeomerxInline\JsonApi\Contracts\Schema\SchemaInterface;
+use LaravelJsonApi\NeomerxInline\JsonApi\Exceptions\InvalidArgumentException;
+use LaravelJsonApi\NeomerxInline\JsonApi\Parser\IdentifierAndResource;
 use Traversable;
 use function Neomerx\JsonApi\I18n\format as _;
 

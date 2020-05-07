@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Neomerx\JsonApi\Contracts\Parser;
+namespace LaravelJsonApi\NeomerxInline\JsonApi\Contracts\Parser;
 
 /**
  * Copyright 2015-2020 info@neomerx.com
@@ -18,7 +18,7 @@ namespace Neomerx\JsonApi\Contracts\Parser;
  * limitations under the License.
  */
 
-use Neomerx\JsonApi\Contracts\Schema\PositionInterface;
+use LaravelJsonApi\NeomerxInline\JsonApi\Contracts\Schema\PositionInterface;
 
 /**
  * @package Neomerx\JsonApi

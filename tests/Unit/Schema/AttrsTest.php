@@ -6,7 +6,7 @@ use LaravelJsonApi\Core\Contracts\Document\ResourceObject;
 use LaravelJsonApi\Core\Document\ResourceObject\ConditionalAttr;
 use LaravelJsonApi\Core\Document\ResourceObject\ConditionalAttrs;
 use LaravelJsonApi\Encoder\Neomerx\Schema\Attrs;
-use Neomerx\JsonApi\Contracts\Schema\ContextInterface;
+use LaravelJsonApi\NeomerxInline\JsonApi\Contracts\Schema\ContextInterface;
 use PHPUnit\Framework\TestCase;
 
 class AttrsTest extends TestCase

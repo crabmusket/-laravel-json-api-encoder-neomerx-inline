@@ -29,7 +29,7 @@ use LaravelJsonApi\Encoder\Neomerx\Tests\Post;
 use LaravelJsonApi\Encoder\Neomerx\Tests\PostResource;
 use LaravelJsonApi\Encoder\Neomerx\Tests\User;
 use LaravelJsonApi\Encoder\Neomerx\Tests\UserResource;
-use Neomerx\JsonApi\Factories\Factory as NeomerxFactory;
+use LaravelJsonApi\NeomerxInline\JsonApi\Factories\Factory as NeomerxFactory;
 use PHPUnit\Framework\TestCase as BaseTestCase;
 
 abstract class TestCase extends BaseTestCase

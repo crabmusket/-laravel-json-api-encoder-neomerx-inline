@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Neomerx\JsonApi\Schema;
+namespace LaravelJsonApi\NeomerxInline\JsonApi\Schema;
 
 /**
  * Copyright 2015-2020 info@neomerx.com
@@ -18,11 +18,11 @@ namespace Neomerx\JsonApi\Schema;
  * limitations under the License.
  */
 
-use Neomerx\JsonApi\Contracts\Factories\FactoryInterface;
-use Neomerx\JsonApi\Contracts\Schema\DocumentInterface;
-use Neomerx\JsonApi\Contracts\Schema\LinkInterface;
-use Neomerx\JsonApi\Contracts\Schema\SchemaInterface;
-use Neomerx\JsonApi\Exceptions\LogicException;
+use LaravelJsonApi\NeomerxInline\JsonApi\Contracts\Factories\FactoryInterface;
+use LaravelJsonApi\NeomerxInline\JsonApi\Contracts\Schema\DocumentInterface;
+use LaravelJsonApi\NeomerxInline\JsonApi\Contracts\Schema\LinkInterface;
+use LaravelJsonApi\NeomerxInline\JsonApi\Contracts\Schema\SchemaInterface;
+use LaravelJsonApi\NeomerxInline\JsonApi\Exceptions\LogicException;
 
 /**
  * @package Neomerx\JsonApi

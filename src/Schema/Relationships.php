@@ -23,7 +23,7 @@ use IteratorAggregate;
 use LaravelJsonApi\Core\Contracts\Document\ResourceObject;
 use LaravelJsonApi\Core\Contracts\Resources\Container;
 use LaravelJsonApi\Encoder\Neomerx\Mapper;
-use Neomerx\JsonApi\Contracts\Schema\ContextInterface;
+use LaravelJsonApi\NeomerxInline\JsonApi\Contracts\Schema\ContextInterface;
 
 /**
  * Class Relationships

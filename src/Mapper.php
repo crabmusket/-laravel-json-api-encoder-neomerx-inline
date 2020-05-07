@@ -23,10 +23,10 @@ use Generator;
 use LaravelJsonApi\Core\Contracts\Document\ResourceIdentifierObject;
 use LaravelJsonApi\Core\Document\Link;
 use LaravelJsonApi\Core\Document\Links;
-use Neomerx\JsonApi\Contracts\Factories\FactoryInterface;
-use Neomerx\JsonApi\Contracts\Schema\IdentifierInterface;
-use Neomerx\JsonApi\Contracts\Schema\LinkInterface;
-use Neomerx\JsonApi\Schema\Identifier;
+use LaravelJsonApi\NeomerxInline\JsonApi\Contracts\Factories\FactoryInterface;
+use LaravelJsonApi\NeomerxInline\JsonApi\Contracts\Schema\IdentifierInterface;
+use LaravelJsonApi\NeomerxInline\JsonApi\Contracts\Schema\LinkInterface;
+use LaravelJsonApi\NeomerxInline\JsonApi\Schema\Identifier;
 use function iterator_to_array;
 
 class Mapper

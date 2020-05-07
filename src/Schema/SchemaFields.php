@@ -22,7 +22,7 @@ namespace LaravelJsonApi\Encoder\Neomerx\Schema;
 use LaravelJsonApi\Core\Query\FieldSets;
 use LaravelJsonApi\Core\Query\IncludePaths;
 use LaravelJsonApi\Core\Query\RelationshipPath;
-use Neomerx\JsonApi\Contracts\Schema\DocumentInterface;
+use LaravelJsonApi\NeomerxInline\JsonApi\Contracts\Schema\DocumentInterface;
 use function array_key_exists;
 
 /**

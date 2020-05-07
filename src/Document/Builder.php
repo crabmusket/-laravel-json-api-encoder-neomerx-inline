@@ -29,7 +29,7 @@ use LaravelJsonApi\Encoder\Neomerx\Encoder;
 use LaravelJsonApi\Encoder\Neomerx\Mapper;
 use LaravelJsonApi\Encoder\Neomerx\Schema\SchemaContainer;
 use LaravelJsonApi\Encoder\Neomerx\Schema\SchemaFields;
-use Neomerx\JsonApi\Factories\Factory;
+use LaravelJsonApi\NeomerxInline\JsonApi\Factories\Factory;
 
 class Builder implements DocumentBuilder
 {

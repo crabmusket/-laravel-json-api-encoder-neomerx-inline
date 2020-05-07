@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Neomerx\JsonApi\Schema;
+namespace LaravelJsonApi\NeomerxInline\JsonApi\Schema;
 
 /**
  * Copyright 2015-2020 info@neomerx.com
@@ -19,10 +19,10 @@ namespace Neomerx\JsonApi\Schema;
  */
 
 use Closure;
-use Neomerx\JsonApi\Contracts\Factories\FactoryInterface;
-use Neomerx\JsonApi\Contracts\Schema\SchemaContainerInterface;
-use Neomerx\JsonApi\Contracts\Schema\SchemaInterface;
-use Neomerx\JsonApi\Exceptions\InvalidArgumentException;
+use LaravelJsonApi\NeomerxInline\JsonApi\Contracts\Factories\FactoryInterface;
+use LaravelJsonApi\NeomerxInline\JsonApi\Contracts\Schema\SchemaContainerInterface;
+use LaravelJsonApi\NeomerxInline\JsonApi\Contracts\Schema\SchemaInterface;
+use LaravelJsonApi\NeomerxInline\JsonApi\Exceptions\InvalidArgumentException;
 use function Neomerx\JsonApi\I18n\format as _;
 
 /**

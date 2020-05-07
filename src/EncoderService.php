@@ -23,7 +23,7 @@ use LaravelJsonApi\Core\Contracts\Encoder\DocumentBuilder;
 use LaravelJsonApi\Core\Contracts\Encoder\EncoderService as EncoderServiceContract;
 use LaravelJsonApi\Core\Contracts\Resources\Container;
 use LaravelJsonApi\Encoder\Neomerx\Document\Builder;
-use Neomerx\JsonApi\Factories\Factory;
+use LaravelJsonApi\NeomerxInline\JsonApi\Factories\Factory;
 
 class EncoderService implements EncoderServiceContract
 {

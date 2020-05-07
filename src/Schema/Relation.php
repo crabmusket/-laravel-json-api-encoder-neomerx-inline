@@ -24,9 +24,9 @@ use LaravelJsonApi\Core\Contracts\Document\ResourceIdentifierObject;
 use LaravelJsonApi\Core\Contracts\Document\ResourceObject;
 use LaravelJsonApi\Core\Contracts\Resources\Container;
 use LaravelJsonApi\Encoder\Neomerx\Mapper;
-use Neomerx\JsonApi\Contracts\Schema\ContextInterface;
-use Neomerx\JsonApi\Contracts\Schema\IdentifierInterface;
-use Neomerx\JsonApi\Contracts\Schema\SchemaInterface;
+use LaravelJsonApi\NeomerxInline\JsonApi\Contracts\Schema\ContextInterface;
+use LaravelJsonApi\NeomerxInline\JsonApi\Contracts\Schema\IdentifierInterface;
+use LaravelJsonApi\NeomerxInline\JsonApi\Contracts\Schema\SchemaInterface;
 use function is_null;
 
 /**

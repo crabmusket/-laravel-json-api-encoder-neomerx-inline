@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Neomerx\JsonApi\Http;
+namespace LaravelJsonApi\NeomerxInline\JsonApi\Http;
 
 /**
  * Copyright 2015-2020 info@neomerx.com
@@ -18,11 +18,11 @@ namespace Neomerx\JsonApi\Http;
  * limitations under the License.
  */
 
-use Neomerx\JsonApi\Contracts\Encoder\EncoderInterface;
-use Neomerx\JsonApi\Contracts\Http\Headers\HeaderParametersParserInterface;
-use Neomerx\JsonApi\Contracts\Http\Headers\MediaTypeInterface;
-use Neomerx\JsonApi\Contracts\Http\ResponsesInterface;
-use Neomerx\JsonApi\Contracts\Schema\ErrorInterface;
+use LaravelJsonApi\NeomerxInline\JsonApi\Contracts\Encoder\EncoderInterface;
+use LaravelJsonApi\NeomerxInline\JsonApi\Contracts\Http\Headers\HeaderParametersParserInterface;
+use LaravelJsonApi\NeomerxInline\JsonApi\Contracts\Http\Headers\MediaTypeInterface;
+use LaravelJsonApi\NeomerxInline\JsonApi\Contracts\Http\ResponsesInterface;
+use LaravelJsonApi\NeomerxInline\JsonApi\Contracts\Schema\ErrorInterface;
 
 /**
  * @package Neomerx\JsonApi

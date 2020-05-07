@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Neomerx\JsonApi\Parser\RelationshipData;
+namespace LaravelJsonApi\NeomerxInline\JsonApi\Parser\RelationshipData;
 
 /**
  * Copyright 2015-2020 info@neomerx.com
@@ -18,8 +18,8 @@ namespace Neomerx\JsonApi\Parser\RelationshipData;
  * limitations under the License.
  */
 
-use Neomerx\JsonApi\Contracts\Schema\LinkInterface;
-use Neomerx\JsonApi\Contracts\Schema\SchemaInterface;
+use LaravelJsonApi\NeomerxInline\JsonApi\Contracts\Schema\LinkInterface;
+use LaravelJsonApi\NeomerxInline\JsonApi\Contracts\Schema\SchemaInterface;
 
 /**
  * @package Neomerx\JsonApi

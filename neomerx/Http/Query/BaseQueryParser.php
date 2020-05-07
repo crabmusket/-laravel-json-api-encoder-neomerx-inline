@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Neomerx\JsonApi\Http\Query;
+namespace LaravelJsonApi\NeomerxInline\JsonApi\Http\Query;
 
 /**
  * Copyright 2015-2020 info@neomerx.com
@@ -18,7 +18,7 @@ namespace Neomerx\JsonApi\Http\Query;
  * limitations under the License.
  */
 
-use Neomerx\JsonApi\Contracts\Http\Query\BaseQueryParserInterface;
+use LaravelJsonApi\NeomerxInline\JsonApi\Contracts\Http\Query\BaseQueryParserInterface;
 
 /**
  * @package Neomerx\JsonApi

@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Neomerx\JsonApi\Http\Headers;
+namespace LaravelJsonApi\NeomerxInline\JsonApi\Http\Headers;
 
 /**
  * Copyright 2015-2020 info@neomerx.com
@@ -19,8 +19,8 @@ namespace Neomerx\JsonApi\Http\Headers;
  */
 
 use Closure;
-use Neomerx\JsonApi\Contracts\Http\Headers\AcceptMediaTypeInterface;
-use Neomerx\JsonApi\Exceptions\InvalidArgumentException;
+use LaravelJsonApi\NeomerxInline\JsonApi\Contracts\Http\Headers\AcceptMediaTypeInterface;
+use LaravelJsonApi\NeomerxInline\JsonApi\Exceptions\InvalidArgumentException;
 
 /**
  * @package Neomerx\JsonApi

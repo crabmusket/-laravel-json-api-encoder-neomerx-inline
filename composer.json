@@ -43,7 +43,7 @@
     "autoload": {
         "psr-4": {
             "LaravelJsonApi\\Encoder\\Neomerx\\": "src/",
-            "Neomerx\\JsonApi\\": "neomerx/"
+            "LaravelJsonApi\\NeomerxInline\\JsonApi\\": "neomerx/"
         }
     },
     "autoload-dev": {
